@@ -14,7 +14,11 @@ For Non-Personalized algorithm, it is mainly implemented in /Pone/src/main/java/
 
 c.
 For ranking algorithms based on user voting. I recommend these articles:
+
 http://www.evanmiller.org/how-not-to-sort-by-average-rating.html
+
 http://amix.dk/blog/post/19574
+
 http://amix.dk/blog/post/19588
+
 https://possiblywrong.wordpress.com/2011/06/05/reddits-comment-ranking-algorithm/
