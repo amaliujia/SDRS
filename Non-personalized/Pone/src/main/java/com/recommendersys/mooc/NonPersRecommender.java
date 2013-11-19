@@ -11,12 +11,6 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 import java.util.Hashtable;
 
-/*
-    36658
-    22
-    9741
- */
-
 class NonPersRecommender {
     static int Movie_1 = 36658;
     static int Movie_2 = 22;
@@ -69,10 +63,6 @@ class NonPersRecommender {
             }
         }
         brc.close();
-//////////////////////////////////////
-
-//////////////////////////////////////
-
 
     }catch (Exception e) {
         System.out.println(e.getMessage());
@@ -82,24 +72,5 @@ class NonPersRecommender {
         s.SingleFormuler(Movie_s_1,name,movies,ratings,UniqueMovie);
         s.SingleFormuler(Movie_s_2,name,movies,ratings,UniqueMovie);
         s.SingleFormuler(Movie_s_3,name,movies,ratings,UniqueMovie);
-//    // Movies array contains the movie IDs of the top 5 movies.
-//	int movies[] = new int[5];
-//
-//	// Write the top 5 movies, one per line, to a text file.
-//	try {
-//	    PrintWriter writer = new PrintWriter("pa1-result.txt","UTF-8");
-//
-//	    for (int movieId : movies) {
-//		writer.println(movieId);
-//	    }
-//
-//	    writer.close();
-//
-//	} catch (Exception e) {
-//	    System.out.println(e.getMessage());
-//	}
    }
-
-
-
 }

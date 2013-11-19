@@ -23,7 +23,6 @@ class Searching{
         for(int i=0;i<loops;i++){
             for(int j=0;j<size;j++){
                 if (movies.get(j).equals(UniqueMovie.get(i))){
-//                   float aRating = ratings.get(j);
                     String temp = name.get(j).toString();
                     int index = conjunction.indexOf(temp);
                     if (index != -1){
@@ -31,8 +30,6 @@ class Searching{
                     }
                 }
             }
-
-          //  System.out.println(size_2 + " " + count + " " +l1);
             float l =  count;
             float l1 = l/size_2;
             result.put(UniqueMovie.get(i),l1);

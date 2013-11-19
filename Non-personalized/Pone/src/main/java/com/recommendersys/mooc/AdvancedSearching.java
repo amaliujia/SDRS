@@ -7,6 +7,7 @@ import java.util.StringTokenizer;
 import java.util.Hashtable;
 import java.util.*;
 import java.math.*;
+
 class AdvancedSearching{
     public void SingleFormuler(String aMoiveID,ArrayList name,ArrayList movies,ArrayList ratings,ArrayList UniqueMovie){
         ArrayList conjunction = new ArrayList();
@@ -29,7 +30,6 @@ class AdvancedSearching{
         for(int i=0;i<loops;i++){
             for(int j=0;j<size;j++){
                 if (movies.get(j).equals(UniqueMovie.get(i))){
-//                   float aRating = ratings.get(j);
                     String temp = name.get(j).toString();
                     int index = conjunction.indexOf(temp);
                     if (index != -1){
@@ -40,7 +40,6 @@ class AdvancedSearching{
                 }
             }
 
-            //  System.out.println(size_2 + " " + count + " " +l1);
             float l =  count;
             float l1 = l/size_2;
             float t =  size_3 + discount;
@@ -50,7 +49,7 @@ class AdvancedSearching{
             count = 0;
             discount = 0;
         }
-        //System.out.println("Pass Through!");
+         //System.out.println("Pass Through!");
         try {
             File csv = new File("AdvancedFormula.csv"); // CSV文件
             // 追记模式
@@ -74,9 +73,6 @@ class AdvancedSearching{
                     a+=1;
                 }
             }
-
-
-
             bw.close();
         } catch (FileNotFoundException e) {
             // 捕获File对象生成时的异常
@@ -85,8 +81,5 @@ class AdvancedSearching{
             // 捕获BufferedWriter对象关闭时的异常
             e.printStackTrace();
         }
-
     }
-
-
 }
