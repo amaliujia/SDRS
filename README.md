@@ -5,6 +5,8 @@ SDRS means Sky dragon's recommender systems
 
 If you want to use it as reference, please be advised that having been familiar with lenskit framwork in advance.
 
+Tips
+====
 a.
 For Content-Based algorithm, it is mainly implemented in /source/src/main/java/org/grouplens/mooc/cbf/.
 
