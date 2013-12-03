@@ -2,6 +2,7 @@ SDRS
 ====
 SDRS means Sky dragon's recommender systems
 
+This project studied and realized many kinds of recommendation algorithms. It also explored advance topics based on Lenskit Framework and Java.
 
 If you want to use it as reference, please be advised that having been familiar with lenskit framwork in advance.
 
